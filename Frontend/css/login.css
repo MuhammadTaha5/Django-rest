@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+.titleImage{
+    height: 500px;
+    width: 500px;
+}
+.titleImage img{
+    width: 100%;
+    width: 100%;
+}
+@media (max-width:768px) {
+    main{
+        flex-direction: column;
+        justify-content: start;
+        
+    }
+    .titleImage{
+        margin-top: 100px;
+        width: 50%;
+        height: auto;
+    }
+    
+}
