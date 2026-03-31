@@ -31,3 +31,14 @@ main{
     }
     
 }
+
+#loader {
+    transition: opacity 0.3s ease;
+}
+#loader.d-none {
+    opacity: 0;
+    pointer-events: none; /* prevent clicks when hidden */
+}
+#loader.show {
+    opacity: 1;
+}
